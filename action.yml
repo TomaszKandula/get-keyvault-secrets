@@ -8,8 +8,8 @@ inputs:
     description: 'Name of the secret to be fetched' #Comma separated list of secret keys can be specified
     required: true
 branding:
-  icon: 'akv.svg'
-  color: 'blue'
+  icon: 'play.svg'
+  color: 'green'
 runs:
   using: 'node16'
   main: 'lib/main.js'
