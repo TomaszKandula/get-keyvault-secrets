@@ -1,4 +1,4 @@
-name: 'Get Secrets from Azure key vault'
+name: 'Azure key vault secrets w/Node16'
 description: 'Get Secrets from Azure Key Vault instance and set as output variables. github.com/azure/actions'
 inputs:
   keyvault:
