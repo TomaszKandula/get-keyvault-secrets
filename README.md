@@ -1,6 +1,10 @@
-# Deprecation notice
+# My changes
 
-This Action is deprecated. Instead, one can use [azure/cli@v1 action](https://github.com/Azure/cli) and pass a custom script to it to access [azure key vault](https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-cli).
+- Upgrade @actions/core to the latest version `1.10.0`. It fixes the issue with deprecated `set-output` command.
+- Upgrade @actions/exec to the latest version.
+- Upgrade Node.js to v16. It resolves warning: `Node.js v12 actions are deprecated`.
+- Fix messy `.gitignore` file.
+
 # GitHub Action to fetch secrets from Azure Key Vault
 
 With the Get Key Vault Secrets action, you can fetch secrets from an [Azure Key Vault](https://docs.microsoft.com/en-us/rest/api/keyvault/about-keys--secrets-and-certificates) instance and consume in your GitHub Action workflows.
