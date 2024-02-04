@@ -1,4 +1,4 @@
-name: 'Azure key vault secrets w/Node16'
+name: 'Azure key vault secrets w/Node20'
 description: 'Get Secrets from Azure Key Vault instance and set as output variables. github.com/azure/actions'
 inputs:
   keyvault:
@@ -11,5 +11,5 @@ branding:
   icon: 'play'
   color: 'green'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
